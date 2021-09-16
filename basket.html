@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basket</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/nouislider.min.css">
+  <link rel="stylesheet" href="css/select2.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<header class="header">
+<div class="header-top">
+  <article class="wrapper">
+<nav class="header-nav">
+  <ul>
+    <li><a href="#">Бренды</a></li>
+    <li><a href="#">Распродажа</a></li>
+    <li><a href="#">Доставка и Сборка</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">Гарантия</a></li>
+    <li><a href="#">Оплата</a></li>
+    <li><a href="#">Контакты</a></li>
+  </ul>
+</nav>
+    <div class="header-nav_mobile">
+      <div class="burger">
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="#">Бренды</a></li>
+        <li><a href="#">Распродажа</a></li>
+        <li><a href="#">Доставка и Сборка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Оплата</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="logo">
+      <a href="#">
+        <img src="/images/logo.png" alt="">
+      </a>
+    </div>
+    <div class="header-tel">
+      <div class="header-tel_item">
+<p>Москва</p>
+        <a href="tel:84991234567">8-499-123-45-67</a>
+      </div>
+      <div class="header-tel_item">
+<p>Бесплатно для России</p>
+        <a href="tel:88001234567">8-800-123-45-67</a>
+      </div>
+    </div>
+  </article>
+</div>
+  <div class="header-bottom">
+    <article class="wrapper">
+<div class="header-bottom_in header-bottom_in-left">
+  <div class="login-block header-bottom_block" data-fancybox data-src="#popup-login">
+    <p>Вход</p>
+    <div class="popup popup-login" id="popup-login">
+      <h4>Вход в личный кабинет</h4>
+      <form action="">
+        <div class="form-in">
+          <label for="login">Логин</label>
+          <input type="text" placeholder="Введите логин" id="login">
+        </div>
+        <div class="form-in">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" placeholder="Введите пароль">
+        </div>
+      </form>
+
+      <a class="btn btn-popup" href="#">Войти</a>
+      <a class="link-forgot" href="#">Забыли пароль?</a>
+    </div>
+  </div>
+  <div class="registration-block header-bottom_block">
+    <p>Регистрация</p>
+  </div>
+  <a class="email-block" href="mailto:sport@gmail.com"><i>sport@gmail.com</i></a>
+</div>
+      <div class="header-bottom_in header-bottom_in-right">
+        <div class="basket">
+          <img src="/images/basket.png" alt="">
+          <span>12</span>
+        </div>
+        <div class="working-hours">
+          <ul>
+            <li><b>Пн–Пт:</b> 09:00–21:00;</li>
+            <li><b>Сб–Вс:</b> 10:00–20:00 </li>
+          </ul>
+        </div>
+        <div class="call header-bottom_block" data-fancybox data-src="#popup-call">
+<p>Обратный звонок</p>
+          <div class="popup popup-call" id="popup-call">
+            <h4>ОБратный звонок</h4>
+            <form action="">
+              <div class="form-in">
+                <label for="name">Ваше имя</label>
+                <input type="text" placeholder="Введите имя" id="name">
+              </div>
+              <div class="form-in">
+                <label for="phone">Ваш номер телефона</label>
+                <input type="text" id="phone" placeholder="+38 (0__) ___-__-__">
+              </div>
+            </form>
+
+            <a class="btn btn-popup" href="#">Отправить</a>
+          </div>
+        </div>
+        <div class="only-mobile" data-fancybox data-src="#popup-call">
+          <img src="images/icon11.png" alt="">
+        </div>
+      </div>
+    </article>
+  </div>
+</header>
+
+<section class="main">
+  <article class="wrapper">
+    <aside class="sidebar">
+      <div class="menu">
+        <div class="menu-top">
+          <h2>Каталог товаров</h2>
+          <div class="burger active">
+            <span></span>
+          </div>
+        </div>
+        <ul class="menu-list active">
+          <li class="have-submenu">
+            <a href="#">Беговые дорожки <img src="images/icon15.png" alt=""></a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="#">Всепогодный</a>
+                </li>
+                <li>
+                  <a href="#">Для помещений</a>
+                </li>
+                <li>
+                  <a href="#">Профессиональный</a>
+                </li>
+                <li>
+                  <a href="#">Любительский</a>
+                </li>
+              </ul>
+              <div class="product-top">
+                <a href="#">
+                  <div class="img-wrapper">
+                    <img src="images/product-top.png" alt="">
+                  </div>
+                  <span>Товар дня</span>
+                  <h4>Домашний теннисный стол
+                    Donic Indoor Roller 800 Green</h4>
+                  <div class="product-top_bottom">
+                    <button class="basket" tabindex="0"><img src="images/button.png" alt=""></button>
+                    <p class="new-price">64 990 </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="have-submenu">
+            <a href="#">Эллиптические тренажеры <img src="images/icon15.png" alt=""></a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="#">Всепогодный</a>
+                </li>
+                <li>
+                  <a href="#">Для помещений</a>
+                </li>
+                <li>
+                  <a href="#">Профессиональный</a>
+                </li>
+                <li>
+                  <a href="#">Любительский</a>
+                </li>
+              </ul>
+              <div class="product-top">
+                <a href="#">
+                  <div class="img-wrapper">
+                    <img src="images/product-top.png" alt="">
+                  </div>
+                  <h4>Домашний теннисный стол
+                    Donic Indoor Roller 800 Green</h4>
+                  <div class="product-top_bottom">
+                    <button class="basket" tabindex="0"><img src="images/button.png" alt=""></button>
+                    <p class="new-price">54 990 </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">Велотренажеры <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li >
+            <a href="#">Гребные тренажеры <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Вибромассажеры <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Теннисные столы <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Баскетбол <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Массажные кресла <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li class="have-submenu">
+            <a href="#">Массажные столы <img src="images/icon15.png" alt=""></a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="#">Всепогодный</a>
+                </li>
+                <li>
+                  <a href="#">Для помещений</a>
+                </li>
+                <li>
+                  <a href="#">Профессиональный</a>
+                </li>
+                <li>
+                  <a href="#">Любительский</a>
+                </li>
+              </ul>
+              <div class="product-top">
+                <a href="#">
+                  <div class="img-wrapper">
+                    <img src="images/product-top.png" alt="">
+                  </div>
+                  <h4>Домашний теннисный стол
+                    Donic Indoor Roller 800 Green</h4>
+                  <div class="product-top_bottom">
+                    <button class="basket" tabindex="0"><img src="images/button.png" alt=""></button>
+                    <p class="new-price">34 990 </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">Силовые тренажеры <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Батуты <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Детские городки <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Дачная мебель <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Уличные спортивные комплексы <img src="images/icon15.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#">Аксессуары <img src="images/icon15.png" alt=""></a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="news-block">
+        <h2>Новости</h2>
+        <a class="news-item" href="#">
+          <h3>Снижение цен на игровые площадки
+            Jungle Gym</h3>
+          <div class="news-item_bottom">
+        <span class="date">
+<b>12</b> авг
+        </span>
+            <p>Уважаемые покупатели!
+              Мы рады сообщить вам о снижении цены с 27 июля на детский игровой
+              комплекс</p>
+          </div>
+        </a>
+        <a class="news-item" href="#">
+          <h3>Поступление батутов Eclipse!</h3>
+          <div class="news-item_bottom">
+        <span class="date">
+<b>19</b> авг
+        </span>
+            <p>Уважаемые покупатели!
+              Мы рады сообщить вам о снижении цены с 27 июля на детский игровой
+              комплекс</p>
+          </div>
+        </a>
+      </div>
+      <div class="reviews-block">
+        <h2>Отзывы</h2>
+        <a class="reviews-item" href="#">
+          <i>Павел Никифоров</i>
+          <span>12.09.2015</span>
+          <div class="reviews-item_bottom">
+            <p>Ради экономии места в тренажерном
+              зале приобрел многофункциональный
+              силовой тренажер Life Gear. За такую
+              небольшую стоимость и с такими
+              возможностями, он просто не
+              заменим. </p>
+          </div>
+        </a>
+        <a class="reviews-item" href="#">
+          <i>Степан Николаевич</i>
+          <span>12.09.2015</span>
+          <div class="reviews-item_bottom">
+            <p>Спасибо за прекрасный совет,
+              велосипед всей семье понравился
+              и цену за него достойную запросили.</p>
+          </div>
+        </a>
+      </div>
+    </aside>
+    <div class="content content-wrapper basket-page">
+      
+<div class="search-block">
+  <form action="">
+    <div class="search-block_select">
+      <div class="search-block_title">
+        <p>Поиск</p>
+      </div>
+    </div>
+    <input type="text">
+    <button class="btn btn-search">Найти</button>
+  </form>
+
+</div>
+
+      <section class="crumbs">
+        <div class="crumbs__in">
+          <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="#"><em style="font-style: normal" itemprop="name">Главная</em></a>
+              <meta itemprop="position" content="0">
+            </li>
+
+
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="#">
+                <em style="font-style: normal" itemprop="name">Оформление заказа</em>
+              </a>
+              <meta itemprop="position" content="1">
+            </li>
+
+          </ul>
+        </div>
+        <h1>Оформление заказа</h1>
+      </section>
+      <div class="tab basket-tab">
+        <div class="tab-menu">
+          <ul>
+            <li class=""> <i>Быстрый заказ</i> </li>
+            <li> <i>Курьером по москве и мо</i> </li>
+            <li class="active"><i>Доставка в регионы</i></li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div class="tab-item">
+<div class="basket-form">
+  <form action="">
+    <div class="row">
+      <label><i>Имя:</i></label>
+      <input type="text">
+    </div>
+    <div class="row">
+      <label><i>Моб. телефон:</i></label>
+      <input class="phone" type="text">
+    </div>
+    <div class="row">
+      <label><i>Ваш E-mail: </i></label>
+      <input type="text">
+    </div>
+    <div class="checkbox">
+      <label for="checkbox1">
+        <input type="checkbox" id="checkbox1">
+        <span class="icon"></span>
+        <span>Подписаться на новости и скидки</span>
+      </label>
+    </div>
+  </form>
+</div>
+            <div class="basket-text">
+<span><i>*</i> Поля, обязательные для заполнения</span>
+              <p>Отправка товара производится только после 100% оплаты
+                товара. Стоимость доставки возможно оплатить при
+                получении заказа.</p>
+              <p>* Интернет-магазин не несет ответственности за задержку
+                доставки заказа, связанную с работой курьерских служб DPD
+                и EMS Почты России.</p>
+            </div>
+          </div>
+          <div class="tab-item">
+            <div class="basket-form">
+              <form action="">
+                <div class="row">
+                  <label><i>Фамилия:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Имя:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Отчество:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Моб. телефон:</i></label>
+                  <input class="phone" type="text">
+                </div>
+                <div class="row">
+                  <label><i>Ваш E-mail:</i> </label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label>Способ оплаты:</label>
+                  <div class="select-wrapper">
+                    <select class="select" name="" id="select1">
+                      <option value="Через Сбербанк">Через Сбербанк</option>
+                      <option value="При получении">При получении</option>
+                      <option value="Visa">Visa</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <label><i>Индекс</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Город</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Адрес доставки:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label>Комментарии:</label>
+                  <textarea></textarea>
+                </div>
+                <div class="checkbox">
+                  <label for="checkbox2">
+                    <input type="checkbox" id="checkbox2">
+                    <span class="icon"></span>
+                    <span>Подписаться на новости и скидки</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="basket-text">
+              <span><i>*</i> Поля, обязательные для заполнения</span>
+              <p>Отправка товара производится только после 100% оплаты
+                товара. Стоимость доставки возможно оплатить при
+                получении заказа.</p>
+              <p>Доставка в регионы осуществляется EMS Почтой России
+                (в течение 5-14 дней) и курьерской службой DPD (в течение
+                3-5 дней) с момента передачи заказа в службу доставки.
+                Стоимость зависит от веса заказа и расстояния. В некоторые
+                регионы доставка возможна только посредством EMS Почты
+                России, способ доставки уточняйте у оператора при
+                оформлении заказа*.</p>
+              <p>* Интернет-магазин не несет ответственности за задержку
+                доставки заказа, связанную с работой курьерских служб DPD
+                и EMS Почты России.</p>
+            </div>
+          </div>
+          <div class="tab-item open">
+            <div class="basket-form">
+              <form action="">
+                <div class="row">
+                  <label><i>Фамилия:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Имя:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Отчество:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Моб. телефон:</i></label>
+                  <input class="phone" type="text">
+                </div>
+                <div class="row">
+                  <label><i>Ваш E-mail:</i> </label>
+                  <input type="text">
+                </div>
+
+                <div class="row">
+                  <label class="not-after">Способ оплаты:</label>
+                  <div class="select-wrapper">
+                    <select class="select" name="" id="select2">
+                      <option value="Через Сбербанк">Через Сбербанк</option>
+                      <option value="При получении">При получении</option>
+                      <option value="Visa">Visa</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <label><i>Индекс</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Город</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label><i>Адрес доставки:</i></label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label class="not-after"><i>Комментарии:</i></label>
+                  <textarea></textarea>
+                </div>
+                <div class="checkbox">
+                  <label for="checkbox3">
+                    <input type="checkbox" id="checkbox3">
+                    <span class="icon"></span>
+                    <span>Подписаться на новости и скидки</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="basket-text">
+              <span><i>*</i> Поля, обязательные для заполнения</span>
+              <p>Отправка товара производится только после 100% оплаты
+                товара. Стоимость доставки возможно оплатить при
+                получении заказа.</p>
+              <p>Доставка в регионы осуществляется EMS Почтой России
+                (в течение 5-14 дней) и курьерской службой DPD (в течение
+                3-5 дней) с момента передачи заказа в службу доставки.
+                Стоимость зависит от веса заказа и расстояния. В некоторые
+                регионы доставка возможна только посредством EMS Почты
+                России, способ доставки уточняйте у оператора при
+                оформлении заказа*.</p>
+              <p>* Интернет-магазин не несет ответственности за задержку
+                доставки заказа, связанную с работой курьерских служб DPD
+                и EMS Почты России.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="basket-list">
+        <h2>Ваш заказ</h2>
+        <div class="basket-item">
+<div class="img-wrapper">
+  <img src="images/product.png" alt="">
+</div>
+         <div class="model">
+           <h3>BH Fitness F1 G6414V</h3>
+           <p>Беговая дорожка</p>
+           <span class="new-price"><i>64 990</i> </span>
+         </div>
+          <div class="quantity">
+            <button class="prev"></button>
+            <span>1</span>
+            <button class="next"></button>
+          </div>
+          <div class="basket-item_total">
+<p>Всего: </p>
+            <span class="new-price sum"><i>64 990</i> </span>
+          </div>
+          <div class="close">
+
+          </div>
+        </div>
+        <div class="basket-item">
+          <div class="img-wrapper">
+            <img src="images/product.png" alt="">
+          </div>
+          <div class="model">
+            <h3>BH Fitness F1 G6414V</h3>
+            <p>Беговая дорожка</p>
+            <span class="new-price"><i>64 990</i> </span>
+          </div>
+          <div class="quantity">
+            <button class="prev"></button>
+            <span>1</span>
+            <button class="next"></button>
+          </div>
+          <div class="basket-item_total">
+            <p>Всего: </p>
+            <span class="new-price sum"><i>64 990</i> </span>
+          </div>
+          <div class="close">
+
+          </div>
+        </div>
+
+      </section>
+      <section class="basket-total">
+<p>Итого: <i>120 000 </i> </p>
+        <a class="btn btn-checkout" href="#">Оформить заказ</a>
+      </section>
+    </div>
+
+  </article>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-nav">
+<article class="wrapper">
+  <div class="footer-nav_row">
+    <p>Информация:</p>
+    <ul>
+      <li><a href="#">Бренды</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">Распродажа</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Отзывы</a></li>
+    </ul>
+  </div>
+  <div class="footer-nav_row">
+<p>Помощь:</p>
+    <ul>
+      <li><a href="#">Как заказать</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">Оплата</a></li>
+      <li><a href="#">Гарантия и сборка	</a></li>
+      <li><a href="#">Возврат</a></li>
+    </ul>
+  </div>
+
+</article>
+  </div>
+  <div class="footer-info">
+    <article class="wrapper">
+      <div class="footer-info_in">
+        <div class="in">
+          <div class="footer-info_in-contacts">
+            <a class="logo" href="#">
+              <img src="/images/logo-footer.png" alt="">
+            </a>
+            <ul>
+              <li><a href="tel:84991234567">8-499-123-45-67</a></li>
+              <li><a href="tel:88001234567">8-800-123-45-67</a></li>
+            </ul>
+          </div>
+          <div class="footer-info_in-delivery">
+            <p>Доставка транспортными компаниями:</p>
+            <div class="in">
+              <a href="#">
+                <img src="/images/delivery1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/images/delivery2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/images/delivery3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/images/delivery4.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/images/delivery5.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/images/delivery6.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info_bottom">
+          <img src="/images/icon1.png" alt="">
+          <img src="/images/icon2.png" alt="">
+          <img src="/images/icon3.png" alt="">
+          <img src="/images/icon4.png" alt="">
+          <img src="/images/icon5.png" alt="">
+        </div>
+      </div>
+      <div class="footer-info_in widget">
+       <div class="in">
+         <div class="widget_in">
+           <img src="/images/1-1.png" alt="">
+         </div>
+         <div class="widget_in">
+           <img src="/images/1-1.png" alt="">
+         </div>
+       </div>
+      </div>
+    </article>
+  </div>
+  <div class="footer-bottom">
+    <article class="wrapper">
+
+      <div class="copyright">
+<p>©2015 Все права защищены.</p>
+        <div class="copyright-links">
+          <a href="#">
+            <img src="/images/vkontakte.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/images/facebook.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/images/instagram.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/images/odnoklassniki.png" alt="">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+
+</footer>
+
+
+
+
+
+<script src="js/libs/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/libs/ion.rangeSlider.min.js"></script>
+<script src="js/libs/slick.min.js"></script>
+<script src="js/libs/nouislider.min.js"></script>
+<script src="js/libs/select2.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
+

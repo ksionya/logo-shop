@@ -1,0 +1,156 @@
+.footer {
+  padding: 38px 0 0;
+}
+.footer-nav {
+  border-top: 2px dashed #d9d9d9;
+  border-bottom: 2px dashed #d9d9d9;
+  padding: 12px 0 9px;
+}
+.footer-nav_row {
+  overflow: hidden;
+  padding: 10px 0 6px;
+  width: 60%;
+  border-top: 1px solid rgba(176, 176, 176, 0.2);
+  margin: 0 0 6px;
+  p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 900;
+    display: inline-block;
+    float: left;
+    margin: 0 22px 0 12px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: left;
+    padding: 0 14px;
+  }
+  a {
+    color: #1ab9ce;
+    text-decoration: none;
+    &:hover {
+      color: #333;
+      transition: all 0.2s ease;
+    }
+  }
+}
+.footer-nav_row:first-child {
+  border: none;
+}
+.footer-nav_row:last-child {
+  padding: 13px 0 9px;
+}
+.footer-info {
+  padding: 37px 0 21px;
+  overflow: hidden;
+}
+.footer-info_in {
+  width: 50%;
+  float: left;
+}
+.footer-info_in-contacts {
+  width: 28.5%;
+  float: left;
+  .logo {
+    img {
+      display: block;
+      width: 100%;
+    }
+    &:hover {
+      box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    }
+  }
+  ul {
+    list-style: none;
+    position: relative;
+    margin: 24px 0 12px;
+    padding: 0 0 0 42px;
+    &:after {
+      content: '';
+      background: url("./../images/icon6.png");
+      width: 19px;
+      height: 25px;
+      position: absolute;
+      top: 9px;
+      left: 8px;
+    }
+  }
+  li {
+    margin: 0 0 4px;
+  }
+  a {
+    display: inline-block;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+}
+.footer-info_in-delivery {
+  width: 71.5%;
+  float: left;
+  padding: 0 0 0 46px;
+  box-sizing: border-box;
+  p {
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 2px 0 29px;
+  }
+  .in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    display: inline-block;
+    margin: 0 16px 20px 0;
+  }
+}
+.footer-info_bottom {
+  margin: 0 -10px 0 -16px;
+  padding: 34px 0 0;
+  img {
+    margin: 0 10px;
+  }
+}
+.copyright {
+  border-top: 1px solid #d9d9d9;
+  padding: 10px 0;
+  overflow: hidden;
+  p {
+    float: left;
+    font-weight: 300;
+    margin: 5px 0 0;
+  }
+}
+.copyright-links {
+  float: right;
+  a {
+    display: inline-block;
+    margin: 0 7px;
+  }
+}
+.in {
+  overflow: hidden;
+}
+.widget {
+  .in {
+    overflow: hidden;
+    margin: -4px -17px 0;
+  }
+}
+.widget_in {
+  width: 50%;
+  float: right;
+  padding: 0 24px;
+  box-sizing: border-box;
+  img {
+    width: 100%;
+  }
+}

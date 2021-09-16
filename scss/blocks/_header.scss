@@ -1,0 +1,250 @@
+.header-top {
+  background: url("./../images/bg-header.png") top center;
+  overflow: hidden;
+  padding: 14px 0 37px;
+}
+.header-nav {
+  float: left;
+  width: 40%;
+  ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 3px -4px;
+  }
+  li  {
+    float: left;
+    margin: 0 11px 0 0;
+  }
+  a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 24px 5px;
+    &:hover {
+      border-radius: 13px;
+      background-color: #058191;
+    }
+  }
+
+}
+.header {
+  .logo {
+text-align: center;
+    width: 20%;
+    float: left;
+    margin: 13px 0 0;
+    a {
+      display: inline-block;
+    }
+  }
+}
+.header-tel {
+  overflow: hidden;
+  width: 40%;
+  padding: 8px 0 0 11px;
+  box-sizing: border-box;
+}
+.header-tel_item {
+  float: left;
+  width: 50%;
+  padding: 0 0 0 28px;
+  box-sizing: border-box;
+  position: relative;
+  p {
+    color: #fff;
+    font-weight: 300;
+    margin: 0 0 1px;
+  }
+  a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  &:after {
+    content: '';
+    width: 1px;
+    height: 27px;
+    background-color: #fff;
+    position: absolute;
+    top: 7px;
+    left: -3px;
+  }
+}
+.header-bottom_block {
+  width: 29%;
+  padding: 0 0 0 52px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  p {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    border-bottom: 1px dotted #999;
+  }
+}
+.header-tel_item:first-child {
+  padding: 0 0 0 39px;
+  &:after {
+    content: '';
+    width: 19px;
+    height: 25px;
+    background: url("./../images/icon7.png");
+    position: absolute;
+    top: 10px;
+    left: 1px;
+  }
+}
+.login-block {
+  padding: 0 0 0 52px;
+  &:after {
+    content: '';
+    background: url("./../images/icon8.png")center center no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    left: 16px;
+  }
+  &:hover {
+    cursor: pointer;
+    p {
+      color: #1ab9ce;
+      transition: all 0.2s ease;
+      border-bottom: 1px dotted #1ab9ce;
+    }
+    &:after {
+      background: url("./../images/icon8-1.png")center center no-repeat;
+    }
+  }
+}
+.registration-block {
+  padding: 0 0 0 36px;
+  &:after {
+    content: '';
+    background: url("./../images/icon9.png") center center no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    left: 2px;
+  }
+  &:hover {
+    cursor: pointer;
+    p {
+      color: #1ab9ce;
+      transition: all 0.2s ease;
+      border-bottom: 1px dotted #1ab9ce;
+    }
+    &:after {
+      background: url("./../images/icon9-1.png")center center no-repeat;
+    }
+  }
+}
+.email-block {
+  position: relative;
+  display: inline-block;
+  padding: 12px 0 0 35px;
+  font-size: 14px;
+  color: #1ab9ce;
+  text-decoration: none;
+  margin: 0 0 0 34px;
+  i {
+    font-style: normal;
+    border-bottom: 1px solid #1ab9ce;
+  }
+  &:after {
+    content: '';
+    background: url("./../images/icon10.png") center center no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+  }
+  &:hover {
+    i {
+      border-bottom: none;
+    }
+  }
+}
+.header-bottom {
+  overflow: hidden;
+  margin: -30px 0 0;
+}
+.header-bottom_in {
+  width: 40%;
+  float: left;
+}
+
+.call {
+  width: 33%;
+  position: relative;
+  cursor: pointer;
+  padding: 0 0 0 29px;
+  &:after {
+    content: '';
+    background: url("./../images/icon11.png") center center no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    left: -5px;
+  }
+  p {
+    color: #1ab9ce;
+    border-bottom: 1px dotted #1ab9ce;
+  }
+  &:hover {
+    p {
+      color: #999;
+      border-bottom: 1px dotted #999;
+    }
+    &:after {
+      background: url("./../images/icon11-1.png") center center no-repeat;
+    }
+  }
+}
+.working-hours {
+  position: relative;
+  float: right;
+  padding: 8px 8px 0 39px;
+  box-sizing: border-box;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &:after {
+    content: '';
+    background: url("./../images/icon12.png") center center no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    left: 1px;
+  }
+}
+.header-bottom_in-right {
+  float: right;
+}
+.basket {
+  position: relative;
+  float: right;
+  padding: 0 30px;
+  margin: 0 11px 0 0;
+  span {
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    right: -3px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #f57f38;
+    padding: 4px 10px 3px;
+  }
+}

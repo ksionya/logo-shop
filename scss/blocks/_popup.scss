@@ -1,0 +1,97 @@
+.btn-popup {
+  display: inline-block;
+  color: #fff;
+ line-height: 24px;
+  font-size: 14px;
+  border-radius: 15px;
+  background-clip: padding-box;
+  background-color: #f57f37;
+  text-decoration: none;
+  padding: 5px 20px;
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 0;
+  &:hover {
+    background-color: rgba(245, 127, 55, 0.9);
+    transition: all 0.2s ease;
+  }
+}
+.form-in {
+  width: 50%;
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.popup-call {
+  display: none;
+  width: 500px;
+  padding: 44px 25px;
+  form {
+    overflow: hidden;
+    margin: 0 -10px;
+  }
+  label {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 14px;
+  }
+  input {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    color: #999;
+  }
+}
+.fancybox-button:hover {
+  svg {
+    path {
+      fill: #f57f37;
+      transition: all 0.2s ease;
+    }
+  }
+}
+.popup-login {
+  display: none;
+  label {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 14px;
+  }
+  input {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    color: #999;
+  }
+  .form-in {
+    width: 100%;
+    float: none;
+  }
+}
+.popup {
+  h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #f57f37;
+    font-size: 24px;
+    margin: 0 0 32px;
+  }
+  input::placeholder {
+    color: #999;
+    font-size: 14px;
+  }
+}
+.link-forgot {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: #f57f37;
+  margin: 15px auto 0;
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,91 @@
+
+
+body {
+  font-family: "Roboto";
+  font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    color: #999;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  position: relative;
+}
+.btn {
+  display: inline-block;
+}
+.btn-buy {
+  color: #999;
+  line-height: 16px;
+  font-size: 14px;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 9px 31px 9px 15px;
+  position: relative;
+  margin: 0 40px 0 0;
+  &:hover {
+    background-color: #fd8323;
+    color: #fff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  &:after {
+    content: '';
+    background: url("./../images/button2.png");
+    background-size: cover;
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    top: -14px;
+    right: -39px;
+  }
+}
+h2 {
+  color: #d9d9d9;
+  font-size: 36px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0 0 25px;
+}
+.btn-checkout {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  background-color: #f57f37;
+  text-decoration: none;
+  padding: 8px 20px;
+  margin: -1px 2px 0 0;
+  &:hover {
+    background-color: #19b9cd;
+    transition: all 0.2s ease;
+  }
+}
+.new-price {
+  display: inline-block;
+  color: #333;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  i {
+    position: relative;
+    font-style: normal;
+    &:after {
+      content: '';
+      background: url("./../images/new-price.png");
+      width: 12px;
+      height: 13px;
+      position: absolute;
+      bottom: 6px;
+      right: -19px;
+    }
+  }
+}
