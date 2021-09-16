@@ -541,11 +541,11 @@
 .carousel-popular {
   margin: 0 -15px;
   .carousel-item {
+    display: block;
     padding: 0 15px;
     box-sizing: border-box;
     margin: 0 0 30px;
-
-
+    text-decoration: none;
   }
   span {
     display: block;
@@ -673,6 +673,7 @@
     span {
       display: block;
       float: none;
+      color: #fff;
     }
     i {
       display: block;
@@ -1355,6 +1356,8 @@
     width: 33.3%;
     padding: 0 15px;
     box-sizing: border-box;
+    display: block;
+    text-decoration: none;
 
   }
 }
