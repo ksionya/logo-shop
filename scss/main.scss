@@ -41,7 +41,7 @@
 }
 .about-block_in {
   overflow: hidden;
-  background: url("./images/bg-about.png");
+  background: url("../images/bg-about.png");
   background-size: cover;
   padding: 40px 36px 59px;
   box-sizing: border-box;
@@ -86,7 +86,7 @@
     &:before {
       content: '';
       display: inline-block;
-      background: url("./images/marker.png");
+      background: url("../images/marker.png");
       width: 11px;
       height: 11px;
       position: relative;
@@ -110,7 +110,7 @@
   position: relative;
   &:after {
     content: '';
-    background-image: url("./images/bg-about2.png");
+    background-image: url("../images/bg-about2.png");
     width: 303px;
     height: 427px;
   }
@@ -231,7 +231,7 @@
         color: #fff;
       }
       &:after {
-        background: url("./images/icon13-1.png");
+        background: url("../images/icon13-1.png");
       }
     }
   }
@@ -247,7 +247,7 @@
   }
   &:after {
     content: '';
-    background: url("./images/icon13.png");
+    background: url("../images/icon13.png");
     width: 16px;
     height: 13px;
     position: absolute;
@@ -256,7 +256,7 @@
   }
 }
 .menu {
-  background: url("./images/bg-menu.png") top center no-repeat;
+  background: url("../images/bg-menu.png") top center no-repeat;
   background-size: cover;
   box-sizing: border-box;
   margin: 0px 0 40px;
@@ -423,7 +423,7 @@
       position: relative;
       &:after {
         content: '';
-        background: url("./images/icon14.png") center center no-repeat;
+        background: url("../images/icon14.png") center center no-repeat;
         background-size: contain;
         width: 20px;
         height: 24px;
@@ -506,7 +506,7 @@
   position: relative;
   &:after {
     content: '';
-    background: url("./images/icon15.png");
+    background: url("../images/icon15.png");
     width: 14px;
     height: 14px;
     position: absolute;
@@ -585,7 +585,7 @@
     position: relative;
     &:after {
       content: '';
-      background: url("./images/old-price.png");
+      background: url("../images/old-price.png");
       width: 6px;
       height: 10px;
       position: absolute;
@@ -603,7 +603,7 @@
     margin: -3px 3px 0 0;
     &:after {
       content: '';
-      background: url("./images/new-price.png");
+      background: url("../images/new-price.png");
       width: 12px;
       height: 13px;
       position: absolute;
@@ -713,7 +713,7 @@
       color: #fff;
       font-weight: 900;
       &:after {
-        background: url(./images/icon14.png);
+        background: url(../images/icon14.png);
       }
     }
     .prices {
@@ -743,20 +743,20 @@
     position: relative;
   }
   .prev {
-    background: url("./images/arr-left.png");
+    background: url("../images/arr-left.png");
     top: 4px;
     left: -26px;
     &:hover {
-      background: url("./images/arr-left2.png");
+      background: url("../images/arr-left2.png");
     }
   }
   .next {
-    background: url("./images/arr-right.png");
+    background: url("../images/arr-right.png");
     top: 4px;
     right: 6px;
     margin: 0 0 0 22px;
     &:hover {
-      background: url("./images/arr-right2.png");
+      background: url("../images/arr-right2.png");
     }
   }
   .counter {
@@ -782,7 +782,7 @@
   position: relative;
   &:before {
     content: '';
-    background: url("./images/icon16.png");
+    background: url("../images/icon16.png");
     width: 17px;
     height: 17px;
     position: absolute;
@@ -791,7 +791,7 @@
   }
   &:after {
     content: '';
-    background: url("./images/icon17.png");
+    background: url("../images/icon17.png");
     width: 10px;
     height: 10px;
     position: absolute;
@@ -885,7 +885,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background: url(./images/bg-menu.png) top center no-repeat;
+    background: url(../images/bg-menu.png) top center no-repeat;
     background-size: cover;
     position: absolute;
     //top: 0px;
@@ -1021,7 +1021,7 @@
     float: right;
     &:after {
       content: '';
-      background: url(./images/new-price.png);
+      background: url(../images/new-price.png);
       width: 12px;
       height: 13px;
       position: absolute;
@@ -1065,7 +1065,7 @@
     position: relative;
     &:after {
       content: '';
-      background: url('./images/icon18.png');
+      background: url('../images/icon18.png');
       width: 10px;
       height: 10px;
       position: absolute;
@@ -1143,7 +1143,7 @@
   cursor: pointer;
   &:after {
     content: '';
-    background: url("./images/icon19.png");
+    background: url("../images/icon19.png");
     width: 21px;
     height: 21px;
     position: absolute;
@@ -1156,7 +1156,7 @@
     color: #fff;
     &:after {
       content: '';
-      background: url("./images/icon19-1.png");
+      background: url("../images/icon19-1.png");
     }
   }
 }
@@ -1372,7 +1372,7 @@
     position: relative;
     &:after {
       content: '';
-      background: url("./images/old-price.png");
+      background: url("../images/old-price.png");
       width: 6px;
       height: 10px;
       position: absolute;
@@ -1389,7 +1389,7 @@
     margin: -3px 3px 0 0;
     &:after {
       content: '';
-      background: url("./images/new-price.png");
+      background: url("../images/new-price.png");
       width: 12px;
       height: 13px;
       position: absolute;
@@ -1410,20 +1410,20 @@
     position: absolute;
   }
   .prev {
-    background: url('./images/quantity-left.png');
+    background: url('../images/quantity-left.png');
     top: 18px;
     left: 0;
     &:hover {
-      background: url('./images/quantity-left2.png');
+      background: url('../images/quantity-left2.png');
       transition: all 0.2s ease;
     }
   }
   .next {
-    background: url('./images/quantity-right.png');
+    background: url('../images/quantity-right.png');
     top: 18px;
     right: 2px;
     &:hover {
-      background: url('./images/quantity-right2.png') ;
+      background: url('../images/quantity-right2.png') ;
       transition: all 0.2s ease;
     }
   }
@@ -1665,7 +1665,7 @@
   &:after {
     content: '';
     display: block;
-    background: url('./images/error.png');
+    background: url('../images/error.png');
     width: 16px;
     height: 16px;
     position: relative;
@@ -1676,7 +1676,7 @@
   &:hover {
     &:after {
       transition: all 0.2s ease;
-      background: url('./images/error2.png');
+      background: url('../images/error2.png');
     }
   }
 }
@@ -1726,7 +1726,7 @@
     position: relative;
     &:after {
       content: '';
-      background: url("./images/icon20.png") no-repeat;
+      background: url("../images/icon20.png") no-repeat;
       background-size: contain;
       position: absolute;
       width: 20px;
@@ -1773,7 +1773,7 @@
       margin: 0 0 0 31px;
       &:after {
         content: '';
-        background: url("./images/icon21.png");
+        background: url("../images/icon21.png");
         width: 21px;
         height: 21px;
         position: absolute;
@@ -1813,7 +1813,7 @@
           color: #f57f37;
           border-bottom: 1px dotted #f57f37;
           &:after {
-            background: url(./images/icon23.png);
+            background: url(../images/icon23.png);
           }
         }
       }
@@ -1863,7 +1863,7 @@
       color: #19b8cd;
       border-bottom: 1px dotted transparent;
       &:after {
-        background: url(./images/icon22.png);
+        background: url(../images/icon22.png);
       }
     }
   }
@@ -1934,22 +1934,22 @@
     position: absolute;
   }
   .prev {
-    background: url(./images/arr-left.png);
+    background: url(../images/arr-left.png);
     top: 4px;
     left: 65px;
     background-size: contain;
     &:hover {
-      background: url(./images/arr-left2.png);
+      background: url(../images/arr-left2.png);
       background-size: contain;
     }
   }
   .next {
-    background: url(./images/arr-right.png);
+    background: url(../images/arr-right.png);
     top: 5px;
     right: 5px;
     background-size: contain;
     &:hover {
-      background: url(./images/arr-right2.png);
+      background: url(../images/arr-right2.png);
       background-size: contain;
     }
   }
@@ -2033,7 +2033,7 @@
 .btn-tile {
   &:after {
     content: '';
-    background: url("./images/tile.png") center center no-repeat;
+    background: url("../images/tile.png") center center no-repeat;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -2044,20 +2044,20 @@
     transition: all 0.2s ease;
     background-color: #4d9fb9;
     &:after {
-      background: url("./images/tile2.png") center center no-repeat;
+      background: url("../images/tile2.png") center center no-repeat;
     }
   }
   &.active {
     background-color: #4d9fb9;
     &:after {
-      background: url("./images/tile2.png") center center no-repeat;
+      background: url("../images/tile2.png") center center no-repeat;
     }
   }
 }
 .btn-list {
   &:after {
     content: '';
-    background: url("./images/list.png") center center no-repeat;
+    background: url("../images/list.png") center center no-repeat;
     width: 25px;
     height: 15px;
     position: absolute;
@@ -2068,13 +2068,13 @@
     transition: all 0.2s ease;
     background-color: #4d9fb9;
     &:after {
-      background: url("./images/list2.png") center center no-repeat;
+      background: url("../images/list2.png") center center no-repeat;
     }
   }
   &.active {
     background-color: #4d9fb9;
     &:after {
-      background: url("./images/list2.png") center center no-repeat;
+      background: url("../images/list2.png") center center no-repeat;
     }
   }
 }
@@ -2160,7 +2160,7 @@
     margin: 0 !important;
     &:after {
       content: '';
-      background: url('./images/accordion.png');
+      background: url('../images/accordion.png');
       width: 30px;
       height: 30px;
       position: absolute;
@@ -2214,7 +2214,7 @@
     color: #fff;
     margin: 15px 0 0 -1px;
     &:after {
-      background: url(./images/icon19-1.png);
+      background: url(../images/icon19-1.png);
     }
     &:hover {
       background: #3ec9da;
@@ -2233,7 +2233,7 @@
     margin: 12px 21px 0 0;
     &:after {
       content: '';
-      background: url("./images/delete.png");
+      background: url("../images/delete.png");
       width: 20px;
       height: 22px;
       position: absolute;
@@ -2245,7 +2245,7 @@
       transition: all 0.2s ease;
       &:after {
         transition: all 0.2s ease;
-        background: url("./images/delete2.png");
+        background: url("../images/delete2.png");
       }
     }
 
@@ -2255,7 +2255,7 @@
     position: relative;
     &:after {
       content: '';
-      background: url("./images/close.png");
+      background: url("../images/close.png");
       width: 10px;
       height: 10px;
       position: absolute;
@@ -2265,7 +2265,7 @@
     &:hover {
       &:after {
         transition: all 0.2s ease;
-        background: url("./images/close2.png");
+        background: url("../images/close2.png");
       }
     }
   }
@@ -2280,7 +2280,7 @@
     height: 23px;
     border: 1px solid #f57f37;
     border-radius: 12px;
-    background: url("./images/circle.png") center center no-repeat, #fff;
+    background: url("../images/circle.png") center center no-repeat, #fff;
     cursor: pointer;
     top: -10px;
 
